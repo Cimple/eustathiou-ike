@@ -1,0 +1,9 @@
+body{
+    background-image: url(../images/tweed.png);
+    font-family: 'system-ui';
+    color: #fff;  
+}
+
+.center {
+    text-align: center;
+}
