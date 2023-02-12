@@ -2,6 +2,8 @@ body {
     background-image: url(../images/tweed.png);
     font-family: 'system-ui';
     color: #fff;
+    margin: 0;
+    padding: 0;
 }
 
 .center {
@@ -11,6 +13,10 @@ body {
 .flex-container {
     display: flex;
     padding-top: 30px;
+}
+
+.top-container {
+    display: flex;
 }
 
 .flex-child {
@@ -26,7 +32,7 @@ p {
     line-height: 2;
 }
 
-#contact {
+#about {
     margin-left: 10%;
     margin-right: 10%;
     padding-left: 100px;
@@ -34,13 +40,13 @@ p {
     /* border: solid; */
 }
 
-#about {
+/* #about {
     margin-top: 100px;
     margin-left: 10%;
     margin-right: 10%;
     padding-left: 100px;
     padding-right: 100px;
-}
+} */
 
 ul.no-bullets {
     list-style-type: none;
@@ -52,8 +58,37 @@ ul.no-bullets {
     /* Remove margins */
 }
 
-#header {
+.header {
+    width: 100%;
+    height: auto;
+    background-color: rgb(75, 170, 224);
+}
+
+.header #title {
+    position: relative;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
+img.pdf-icons {
+    width: 100px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(75, 170, 224);
+    color: white;
+    text-align: center;
+}
+
+img.logo {
+    max-width: 200px;
+    height: 180px;
+    float: left;
+}
